@@ -1,0 +1,127 @@
+.Navbar {
+  /* background-color: black!important; */
+  box-sizing: border-box;
+}
+
+/* Logo */
+#logo:hover {
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+/* onscroll color change */
+.Navbar.active {
+  background-color: #000000;
+}
+
+.navbar-expand-lg {
+  padding-left: 80px!important;
+}
+
+/* Navbar Scroll */
+.Navbar.scrolled {
+  background-color: black !important;
+}
+
+/* Change color of nav accordian */
+.Navbar .navbar-toggler:active {
+  background: #3da8e6;
+  ;
+}
+
+/* Large screen Links */
+@media (min-width: 992px){
+.Navbar {
+    /* background-color: black!important; */
+    padding-top: 7px;
+    /* padding-left:80px!important; */
+}
+
+/* navbar padding nav */
+.navbar-nav {
+  padding-right: 5px!important;
+  padding-left: 65px!important;
+}
+
+/* whole navbar */
+#responsive-navbar-nav {
+  padding-right: 30px!important;
+}
+
+/* spacing between links */
+.navbarLink {
+  padding-left: 40px!important;
+  padding-right: 40px!important;
+  font-size: 18.4px;
+}
+}
+
+/* Smaller Screens */
+@media (max-width: 990px){
+  #responsive-navbar-nav {
+      background-color: black;
+  }
+}
+
+@media (max-width: 766px){
+  .Navbar {
+      padding-left: 12px!important;
+  }
+
+  /* navlogo */
+  .navbar-expand-lg {
+    padding-left: 40px!important;
+  }
+}
+
+/* all links */
+.nav-link {
+  color: white!important;
+}
+
+.headerNavLink:hover {
+  background: #57b9f1!important;
+  color: rgb(0, 0, 0)!important;
+}
+
+.navbarLink:hover {
+  /* color: black!important; */
+  background-color: #57b9f1!important
+}
+
+.navbar-dark .navbar-nav:hover {
+  color: black!important;
+}
+
+#collasible-nav-dropdown:hover {
+  color: #000000;
+}
+
+/* spacing between links */
+.nav-link {
+  padding: 12px;
+}
+
+
+/* the whole menu itself */
+.dropdown-menu {
+  background-color: black!important;
+  color: #57b9f1!important;
+}
+
+/* dropdown link text color*/
+a.dropdown-item {
+  color: white!important;
+}
+
+/* dropdown link background hover color */
+a.dropdown-item:hover {
+background-color: #57b9f1!important;
+color: black!important;
+}
+
+
+

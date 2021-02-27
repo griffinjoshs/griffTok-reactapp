@@ -1,0 +1,62 @@
+.card {
+    background: rgb(49, 45, 117);
+    background: url('../../images/grunge.png'), linear-gradient(277deg, rgb(45, 42, 110) 0%, rgba(0,0,0,1) 80%);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    overflow: hidden;
+    opacity: 60%;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 25px;    
+    text-align: center;
+    background: black;
+    -moz-box-shadow: 0 0 5px 5px #888;
+-webkit-box-shadow: 0 0 5px 5px#888;
+box-shadow: 0 0 5px 5px #888;
+}
+
+.card:hover {
+    -moz-box-shadow: 0 0 9px 9px #888;
+-webkit-box-shadow: 0 0 9px 9px#888;
+box-shadow: 0 0 9px 9px #888;
+}
+
+.boxIcon {
+    font-size: 70px;
+    text-align: center;
+}
+
+.boxIcon:hover {
+    color: #57b9f1;
+    font-size: 75px;
+}
+
+.boxHeader {
+    font-size: 40px;
+    text-align: center;
+}
+
+.cardBtn {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.cardBtn:hover {
+    color: #57b9f1!important;
+    font-weight: bold!important;
+    text-decoration: underline!important;
+}
+
+@media (max-width: 992px) {
+    .card {
+        margin-bottom: 25px;
+    }
+}

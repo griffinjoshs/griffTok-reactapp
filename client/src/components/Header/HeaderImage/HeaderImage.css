@@ -1,0 +1,12 @@
+/* my image image */
+#Me {
+    position: absolute;
+}
+
+@media (min-width: 1050px){
+#Me {
+    height:609px; 
+    width:510px;
+}
+
+}

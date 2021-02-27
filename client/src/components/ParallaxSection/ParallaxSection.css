@@ -1,0 +1,42 @@
+.parallax {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color: white;
+    background: rgb(19, 17, 59);
+    background: rgb(19, 17, 59) url('../../images/star.jpg');
+    /* opacity: 60%; */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Parallax Paragraph */
+.parallaxGraph {
+    font-weight: 300;
+    color: white;
+    /* opacity: 100%; */
+    line-height: 2;
+}
+
+#paraTitle {
+    text-align: center;
+    opacity: 100%;
+}
+
+#paraButton {
+    background-color: white;
+    border: none;
+    height: 60px;
+    width: 300px;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+}
+
+#paraButton:hover {
+    background: transparent;
+    border: solid white;
+    color: white;
+}

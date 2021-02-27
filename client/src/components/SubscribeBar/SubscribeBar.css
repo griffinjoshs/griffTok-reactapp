@@ -1,0 +1,115 @@
+.subSection {
+    background: rgb(0, 0, 0);
+    /* background: rgb(19, 17, 59) url('../images/star.jpg'); */
+    /* opacity: 60%; */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#subBackground {
+    padding-top: 200px;
+    padding-bottom: 200px;;
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+#subEmailInput {
+    border-radius: 15px;
+    display: block;
+    width: 65%;
+    height: 70px;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 1px solid rgb(75, 75, 99);
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;  
+    align-items: center;
+}
+
+#subEmailInput:hover {
+    border: 1px solid rgb(189, 189, 189);
+}
+
+#subEmailInput:active{
+    box-shadow: 0 0 30px 24px blue;
+}
+
+.subscribeForm {
+    padding-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#subscribeBtn {
+    border: solid white;
+    background: transparent;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 30%;
+    height: 67px;
+    font-size: 20px;
+}
+
+#subscribeBtn:hover {
+    background: white;
+    color: black;
+    border: none;
+}
+
+@media (max-width: 992px){
+    body {
+        text-align: center;
+    }
+}
+
+/* Modal */
+.modalHeader {
+    background: black!important;
+}
+
+.modalBody {
+    background: black!important;
+}
+
+.modalInput {
+    border-radius: 15px;
+    display: block;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 1px solid rgb(75, 75, 99);
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;  
+    align-items: center;
+}
+
+.modalInput:hover {
+    border: 1px solid rgb(189, 189, 189);
+}
+
+.modalInput:active {
+    box-shadow: 0 0 30px 24px blue;
+}
+
+button.close {
+    color: white;
+}
+
+button.close:hover {
+    color: white;
+}
+

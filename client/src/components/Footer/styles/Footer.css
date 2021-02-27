@@ -1,0 +1,235 @@
+@media (max-width: 945px){ 
+    footer {
+        text-align: center;
+    }
+    
+    #footerP {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+.followHeader {
+    text-align: center;
+    color: white;
+}
+
+/* Footer Nav Link hover color */
+.footerNavLink:hover {
+    color: #57b9f1!important;
+}
+
+.col-md-6 {
+    max-width: 100%!important;
+}
+
+/* footer-top fluid container */
+@media (max-width: 1000px){  
+.fluid #fluid {
+    display: none;
+}
+}
+
+/* For Medium screen sizes */
+@media (max-width: 992px){ 
+    #footerNavColumn {
+        padding-bottom: 40px!important;
+    }
+}
+
+/* Social Media Links FooterBar */
+#Hfooter {
+    font-size: 25px;
+}
+
+    #footerP {
+        color: white;
+        line-height: 25px;
+    }
+
+    /* amount of space to leave above the main part of the footer */
+    .footer-top {
+        padding-top: 80px;
+        background: rgb(19, 17, 59);
+    background: url('../../../images/grunge.png'), linear-gradient(277deg, rgba(21,20,60,1) 0%, rgba(0,0,0,1) 80%);
+        /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;      
+    }
+    
+    .segment-one h3 {
+        font-family: monospace;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 3px;
+        margin: 10px 0;
+    }
+    
+    .segment-two h2 {
+        color: #ffffff;
+        font-family: monospace;
+    }
+    
+    .segment-two h2::before {
+        content: '|';
+        color: #3da8e6;
+        padding-right: 10px;
+    }
+    
+    .segment-two ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .segment-two ul li {
+        line-height: 5px;
+        color: white;
+    }
+    
+    .segment-two ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .segment-three h2 {
+        color: #ffffff;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .segment-three h2::before {
+        content: '|';
+        color: #3da8e6;
+        padding-right: 10px;
+    }
+    
+    @media (max-width: 575px){
+    .segment-three {
+        padding-bottom: 30px;
+    }}
+    
+    @media (max-width: 575px){
+    .segment-two {
+        padding-bottom: 30px;
+    }}
+    
+    @media (max-width: 575px){
+    .segment-four {
+        padding-bottom: 30px;
+    }}
+    
+    #submit:hover {
+        color: #19388b;
+        background-color: white;
+    }
+    
+    @media (min-width: 575px){
+    #submit {
+        font-size: 14px;
+    }
+    }
+    
+    .segment-four form input[type=submit]{
+        background: transparent;
+        border: solid white;
+        padding: 3px 15px;
+        margin-left: -5px;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    .footer-bottom-text {
+        /* padding-top: 20px; */
+        text-align: center;
+        color:rgb(19, 17, 59);
+        font-weight: bold;
+        background-color: #000000;
+        line-height: 75px;
+        margin-bottom: 0px;
+    }
+    
+    .nav-link:hover {
+        color: #3da8e6;
+    }
+    
+    /* sub button */
+    #subInput {
+        height: 38px!important;
+        border-radius: 5px;
+        padding: 10px 20px;
+        padding-bottom: 10px!important;
+        width: 100%;
+        background: #111;
+        font-family: Montserrat-Bold;
+        font-size: 13px;
+        line-height: 1.5;
+        border: 1px solid rgb(75, 75, 99);
+        color: white;
+        box-sizing: border-box!important;
+        outline: none;
+        transition: 0.5s;  
+        }
+        
+        #subInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+          color: rgb(255, 255, 255);
+          opacity: 1; /* Firefox */
+        }
+        
+        #subInput:hover {
+          border: 1px solid rgb(189, 189, 189);
+          background: #111;
+          font-family: Montserrat-Bold;
+          line-height: 1.5;
+          color: white;
+          }
+
+          #subInput:active{
+            box-shadow: 10 10 30px 24px blue!important;
+        }
+    
+          #submitSub {
+              height: 38px;
+              width: 90px;
+              background-color: transparent;
+              border-radius: 5px;
+              border: solid white;
+            color: white;
+            position: absolute;
+            }
+    
+            #submitSub:hover {
+                background-color: white;
+                color: black;
+              }
+    
+              .btnContainer {
+                background-color: var(--main-color);
+                text-align: center;
+                /* border-radius: 3rem; */
+                overflow: hidden;
+                display: flex;
+                transition: width .4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+              }
+
+              @media (max-width: 768px){
+                .btnContainer {
+                    justify-content: center;
+                }
+              }
+
+    
+              #subForm {
+                display: flex;
+              }
+
+              /* Each Individual Nav Link */
+              .footerNavitem {
+                  padding: 12px;
+                  padding-left: 20px;
+              }
+
+              .form-container {
+                  /* margin-right: 10px */
+              }

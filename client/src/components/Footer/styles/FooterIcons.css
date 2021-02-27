@@ -1,0 +1,19 @@
+   /* footer social media icons */
+   #footSocialIcon {
+    padding-right: 15px;
+    padding-left: 0px;
+    color: #57b9f1!important;
+    font-size: 20px;
+    text-align: left!important;
+}
+
+#footSocialIcon:hover {
+    color: white!important;
+    font-size: 23px;
+}
+
+@media (max-width: 944px){  
+    #footSocialIcon {
+        text-align: center!important;
+}
+}

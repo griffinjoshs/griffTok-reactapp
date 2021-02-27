@@ -1,0 +1,10 @@
+body {
+    background: url('../../images/grunge.png'), linear-gradient(277deg, rgba(21,20,60,1) 0%, rgba(0,0,0,1) 80%);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: rgb(21,20,60);
+    background: linear-gradient(277deg, rgba(21,20,60,1) 0%, rgba(0,0,0,1) 80%); */
+}

@@ -1,0 +1,23 @@
+/* icon area */
+.navIcon {
+    /* width: 70px; */
+    padding: 10px!important;
+    color: #57b9f1!important;
+  }
+  
+  .navIcon:hover {
+    color: white!important;
+    font-size: 18px;
+  }
+
+  /* nav Icons horizontal dropdown (small screen size */
+  .icon {
+    flex-direction: row!important;
+  }
+
+ 
+
+  /*  */
+  /* #footerNavColumn {
+    width: 100%;
+  } */
