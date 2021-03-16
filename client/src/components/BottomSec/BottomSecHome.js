@@ -23,6 +23,7 @@ function BottomSecHome() {
                 <Col sm={12} lg={5} id="jumbtronColumn">
                     <Jumbotron>
                         <h2>Suport Me on Patreon</h2>
+                        <br></br>
                         <p>
                         For those who really support me, if you would like to get the best from me possible, join my Patreon Community. You will get free Merchandise as well as access to unposted and removed videos!
                         </p>

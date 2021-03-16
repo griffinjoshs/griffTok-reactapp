@@ -7,7 +7,6 @@ import axios from 'axios'
 
 const FooterForm = () => {
     const [show, setShow] = useState(false);
-    const [load, setLoad] = useState(1)
   const [data, setData] = useState({
     emailAddress: '',
       firstName: '',
@@ -17,7 +16,7 @@ const FooterForm = () => {
 
   useEffect(() => {
     console.log("reloaded page...")
-  }, [load])
+  })
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -36,12 +35,12 @@ const submitHandler = (event) => {
       .post("http://localhost:8000/api/subscribers", data)
       .then((res) => {
         console.log(res.data.results);
-        load === 1 ? setLoad(0): setLoad(1)
-        handleClose()
       })
       .catch((err) => {
         console.log(err);
       });
+      window.location.reload();
+        handleClose()
     console.log(data);
 };
     return (

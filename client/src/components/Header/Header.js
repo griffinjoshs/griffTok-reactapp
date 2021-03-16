@@ -19,7 +19,7 @@ function Header() {
     <h1>{name}</h1>
     <br></br>
     <h2 className="headerP">
-      TikTok Creator, Twitch Streamer, and Snowflake Offender
+      TikTok Creator, Twitch Streamer
 </h2>
 <br></br>
     <Row className="mb-2" id="btn">

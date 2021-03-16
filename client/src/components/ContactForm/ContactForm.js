@@ -10,7 +10,7 @@ function ContactForm() {
     firstName: "",
     lastName: "",
     email: "",
-    phone: "",
+    phoneNumber: "",
     subject: "",
     message: "",
   });
@@ -41,12 +41,20 @@ function ContactForm() {
       .catch((err) => {
         console.log(err);
       });
+    axios
+      .post("http://localhost:8000/api/send", data)
+      .then((res) => {
+        console.log(res.data.results);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
     console.log(data);
     setData({
       firstName: "",
       lastName: "",
       email: "",
-      phone: "",
+      phoneNumber: "",
       subject: "",
       message: "",
     });
@@ -67,6 +75,7 @@ function ContactForm() {
         <div>{thanks.message}</div>
       ) : (
         <Form className="contact-form" onSubmit={submitHandler}>
+          {/* action="api/send" */}
           {/* <div className="form-group container p-5" id='inputContainer'> */}
           <input
             className="contact-form-text"
@@ -98,11 +107,11 @@ function ContactForm() {
           <input
             className="contact-form-text"
             type="text"
-            name="phone"
+            name="phoneNumber"
             id="number"
             placeholder="Phone Number"
             onChange={changeHandler}
-            value={data.phone}
+            value={data.phoneNumber}
           />
           <input
             className="contact-form-text"
