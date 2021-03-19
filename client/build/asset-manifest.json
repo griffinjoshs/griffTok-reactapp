@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2b49cf94.chunk.css",
+    "main.js": "./static/js/main.400675d6.chunk.js",
+    "main.js.map": "./static/js/main.400675d6.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.2f17267d.js",
+    "runtime-main.js.map": "./static/js/runtime-main.2f17267d.js.map",
+    "static/css/2.150d169a.chunk.css": "./static/css/2.150d169a.chunk.css",
+    "static/js/2.29e6b3d8.chunk.js": "./static/js/2.29e6b3d8.chunk.js",
+    "static/js/2.29e6b3d8.chunk.js.map": "./static/js/2.29e6b3d8.chunk.js.map",
+    "static/js/3.f085b10b.chunk.js": "./static/js/3.f085b10b.chunk.js",
+    "static/js/3.f085b10b.chunk.js.map": "./static/js/3.f085b10b.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.150d169a.chunk.css.map": "./static/css/2.150d169a.chunk.css.map",
+    "static/css/main.2b49cf94.chunk.css.map": "./static/css/main.2b49cf94.chunk.css.map",
+    "static/js/2.29e6b3d8.chunk.js.LICENSE.txt": "./static/js/2.29e6b3d8.chunk.js.LICENSE.txt",
+    "static/media/griffinjoshs-belinSans.7ad695f0.png": "./static/media/griffinjoshs-belinSans.7ad695f0.png",
+    "static/media/griffinjoshs-small.4193da05.png": "./static/media/griffinjoshs-small.4193da05.png",
+    "static/media/ContactBody.css": "./static/media/grunge.5dc150bf.png",
+    "static/media/phone_1_1.0827d5b3.png": "./static/media/phone_1_1.0827d5b3.png",
+    "static/media/profilePic.81269653.jpeg": "./static/media/profilePic.81269653.jpeg",
+    "static/media/ParallaxSection.css": "./static/media/star.4e7dc2a5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f17267d.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.29e6b3d8.chunk.js",
+    "static/css/main.2b49cf94.chunk.css",
+    "static/js/main.400675d6.chunk.js"
+  ]
+}
