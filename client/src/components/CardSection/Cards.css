@@ -1,4 +1,4 @@
-.card {
+.cardBox {
     background: rgb(49, 45, 117);
     background: url('../../images/grunge.png'), linear-gradient(277deg, rgb(45, 42, 110) 0%, rgba(0,0,0,1) 80%);
     /* Create the parallax scrolling effect */
@@ -22,7 +22,7 @@
 box-shadow: 0 0 5px 5px #888;
 }
 
-.card:hover {
+.cardBox:hover {
     -moz-box-shadow: 0 0 9px 9px #888;
 -webkit-box-shadow: 0 0 9px 9px#888;
 box-shadow: 0 0 9px 9px #888;
@@ -56,7 +56,7 @@ box-shadow: 0 0 9px 9px #888;
 }
 
 @media (max-width: 992px) {
-    .card {
+    .cardBox {
         margin-bottom: 25px;
     }
 }
