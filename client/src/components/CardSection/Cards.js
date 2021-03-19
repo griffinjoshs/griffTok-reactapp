@@ -7,7 +7,7 @@ const Card = (props) => {
     const { Icon, Link, Header, Paragraph, ButtonText } = props
   return (
     <div>
-      <div className="cardBox" onClick="https://www.patreon.com/griffinjoshs">
+      <div className="cardBox">
         <br></br>
         <i className="boxIcon">{Icon}</i>
         <br></br>
